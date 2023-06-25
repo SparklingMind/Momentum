@@ -1,0 +1,63 @@
+#main {
+  background-color: none;
+  width: 80%;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+ 
+
+#todo-form input[type="text"] {
+  width:400px;
+  border: none;
+  font-size: 40px;
+  border-bottom: 3px solid white;
+  background: inherit;
+  color:white;
+}
+#todo-form div {
+  font-size: 40px;
+  color: white;
+} 
+
+#login-form input[type="text"] {
+  width:400px;
+  border: none;
+  font-size: 40px;
+  border-bottom: 3px solid white;
+  background: inherit;
+  color:white;
+}
+
+#button {
+  border-radius: 20px;
+}
+
+#todo-list {
+  color:white;
+  font-size: 30px;
+}
+
+#greeting {
+  color:white
+}
+
+
+@media only screen and (max-width: 600px) {
+  #clock{
+    font-size: 30px;
+  }
+  #todo-form div {
+    font-size: 20px;
+  } 
+  #quote {
+    width:50%
+  }
+
+  #login-form input[type="text"]{
+    width:50%;
+  }
+
+}

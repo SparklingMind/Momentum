@@ -1,0 +1,56 @@
+.hidden {
+    display: none;
+}
+
+#bg-image{
+    position:absolute;
+    left:0;
+    top:0;
+    max-width:100%;
+    min-width:1440px;
+    max-height:100%;
+    min-height:900px;
+    z-index:-5;
+  }
+  @media only screen and (max-width: 600px) {
+
+    #bg-image {
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+   }
+   
+  }
+
+#quote {
+  position: fixed;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  color:whitesmoke;
+}
+
+#weather {
+  position: fixed;
+  left: 50%;
+  top: 2%;
+  transform: translateX(-50%);
+  color:white;
+  font-size: 12px;
+  font-family:sans-serif;
+}
+
+#clock {
+  font-size: 160px;
+  color:white;
+}
+
+*{
+  font-family: 'EliceDigitalBaeum';
+}
+@font-face {
+  font-family: 'EliceDigitalBaeum';
+  src: url('../EliceDigitalBaeum_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
